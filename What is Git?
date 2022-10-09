@@ -1,0 +1,36 @@
+
+Git is an open source distributed version control system (VCS)
+VCS is the ultimate time travel machine for a project
+Git is a tool that tracks changes to source code
+
+Each commit is a different version of the project
+
+Version control systems like git is NOT a backup, it is just a repository of different versions of a project.
+
+Version control is useful to:
+·         track a projects's history
+·         manage multiple versions of a project
+·         share code amongst developers
+·         coordinate teamwork
+
+Git's strong points --- fast, safe, flexible, smart
+
+Git's shortcomings: Not ideal for binary files and not user-friendly
+
+Git is hard to learn, but easy to use
+
+Versiyon kontrol sistemleri olmasa farklı modülleri biraraya getirmede çok sıkıntı yaşanırdı.
+Database, user, administrator interface ve farklı developer kodlarının bulunduğu modulleri bir araya getirmede entegrasyon problemi yaşanırdı.
+
+http://git-school.github.io/visualizing-git/  görsel olarak işlem yapar.
+
+git official sitesinde -- book appendix kısmında default editor komutlarını görebiliriz.
+
+git graph extension --  We can use this in VSCode as extension
+
+git gui:
+github desktop
+sourcetree
+tower
+GitKraken
+Ungit
