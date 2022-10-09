@@ -1,0 +1,27 @@
+
+Three states of a git project:
+1.       Working Directory
+2.       Staging Area (Index)
+3.       .git Directory (Repository)
+
+Below global commands should run when Git is first installed.
+git --version (yüklü olduğunu test etmek ve versiyon kontrolü için)
+git config --global user.name "Murat Akgul"
+git config --global user.mail "muratakgul98@gmail.com"
+
+git config --list (lists all configuration settings for git)
+
+man git (get help for all commands)
+git help (get help for all command - short info)
+Porcelain commands are important, plumbing commands for detailed stuff in Git
+git help config (get help for configuration)
+
+git init -creates an empty git repo for all source codes are exist in the path
+git add .  --> index everything in the Git initialized current directory
+git commit -m "First commit for my project" --> snapshot everything in the Git initilized current directory
+git commit -a -m "second commit" -- > skip the "git add" command and commit directly
+git status --> displays in which branch we are on and check whether exist anything to commit
+git status --short ya da git status -s --> displays m, a ve ??. m is modified at stage area, a is new added file, ?? İs untracked file
+
+Is there anything missing previous commit or commit message is written wrong, we can go back to previous commit with below command:
+git commit --amend
