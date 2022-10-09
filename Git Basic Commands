@@ -1,8 +1,8 @@
 
 Three states of a git project:
-1.       Working Directory
-2.       Staging Area (Index)
-3.       .git Directory (Repository)
+1. Working Directory
+2. Staging Area (Index)
+3. .git Directory (Repository)
 
 Below global commands should run when Git is first installed.
 git --version (yüklü olduğunu test etmek ve versiyon kontrolü için)
