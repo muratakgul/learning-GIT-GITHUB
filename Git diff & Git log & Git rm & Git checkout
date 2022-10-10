@@ -1,0 +1,21 @@
+git diff --staged  --> compares two files in the stage area, without looking at file names, compares all of them!
+git diff --staged --no-renames --> We can fix this issue with --no-renames
+git diff  --> checks is there any changes in the working directory - compares staging area and working directory
+
+git log  --> We can see all committed logs
+git log -1 --> displays the last committed log
+git log --oneline -- lists all commits in oneline without author and date
+
+git rm abc.txt --> deletes abc.txt file
+git rm --cached abc.txt --> keeps in the list but make it untrack (does not require to commit)
+
+git diff "1.commit hash" "2.commit hash" --> shows what is the changes between them
+
+Git checkout "commit hash" --> to go to specific commit as time travel. Old version of our work
+
+git diff HEAD --> lists all changes in the working tree since your last commit
+git diff --staged or git diff --cached will list the changes between the staging area and our loast commit. (show me what will be including in my commit if I run git commit right now)
+git diff --staged abc.txt
+git diff HEAD abc.txt
+git diff branch1 branch2 or git diff branch1..branch2
+git diff commit1..commit2 (write hashes)
